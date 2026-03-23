@@ -1,0 +1,75 @@
+body {
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f0;
+    color: #2c2c2c;
+}
+
+/* ---- header: background-color ---- */
+header {
+    background-color: #2e4057;
+    padding: 20px 40px;
+    color: #ffffff;
+}
+
+/* ---- nav: background-color ---- */
+nav {
+    background-color: #048a81;
+    padding: 10px 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 15px;
+    font-family: 'Georgia', serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---- main: background-color & font-size ---- */
+main {
+    background-color: #ffffff;
+    font-size: 17px;
+    padding: 30px 40px;
+    max-width: 960px;
+    margin: 30px auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* ---- footer: background-color ---- */
+footer {
+    background-color: #2e4057;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 14px;
+}
+
+/* ---- li: display & width ---- */
+li {
+    display: inline-block;
+    width: 180px;
+    margin: 6px;
+    vertical-align: top;
+}
+
+/* ---- h1: text-align, font-family & color ---- */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+/* ---- p: line-height ---- */
+p {
+    line-height: 1.8;
+}
