@@ -7,16 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Step 2: Skip to Main Content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
     <header>
         <h1>Vietnamese Coffee</h1>
         <p>Learn about Vietnamese coffee culture</p>
     </header>
 
-    <main>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Types</a>
+        <a href="#">How to Brew</a>
+        <a href="#">Culture</a>
+    </nav>
+
+    <!-- Step 2: id added to main tag -->
+    <main id="main-content">
         <section>
             <h2>What is Vietnamese Coffee?</h2>
             <p>Vietnamese coffee is a popular drink in Vietnam. It is made with dark roasted coffee beans and condensed milk. The coffee is brewed using a special metal filter called a phin.</p>
-            <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&h=400&fit=crop" alt="Vietnamese coffee with metal filter and condensed milk">
+            <div class="grid">
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=600&h=400&fit=crop" alt="Vietnamese coffee with metal filter and condensed milk">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Different types of Vietnamese coffee drinks">
+            </div>
         </section>
 
         <section>
@@ -26,14 +41,19 @@
                 <li>Ca Phe Sua Da - Iced coffee with condensed milk</li>
                 <li>Ca Phe Sua Nong - Hot coffee with condensed milk</li>
                 <li>Ca Phe Den - Black coffee without milk</li>
+                <li>Ca Phe Trung - Egg coffee</li>
+                <li>Ca Phe Cot Dua - Coconut coffee</li>
             </ul>
-            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&h=400&fit=crop" alt="Different types of Vietnamese coffee drinks">
         </section>
 
         <section>
             <h2>How to Make Vietnamese Coffee</h2>
             <p>Vietnamese coffee is made using a phin filter. You place the filter on top of a cup, add coffee grounds, and hot water. The coffee slowly drips down. This can take about 5 minutes. Then you mix it with condensed milk and enjoy.</p>
-            <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=600&h=400&fit=crop" alt="Vietnamese phin filter dripping coffee into a cup">
+            <div class="flex">
+                <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?w=300&h=200&fit=crop" alt="Vietnamese phin filter dripping coffee into a cup">
+                <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=300&h=200&fit=crop" alt="Close up of Vietnamese coffee being brewed">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=300&h=200&fit=crop" alt="Finished Vietnamese iced coffee">
+            </div>
         </section>
 
         <section>
